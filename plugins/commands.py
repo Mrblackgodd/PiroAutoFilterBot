@@ -25,13 +25,11 @@ async def start(client, message):
                     InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton('🛡 Movies website 🛡', url=f"https://byvegamovies.blogspot.com"),
-                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/+nKz9rQJ893BlMGRl")
+                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/purpleebots")
                 ],[
                     InlineKeyboardButton('🔞 18+ 🔞', url=f'https://desivddeos.blogspot.com'),
                     InlineKeyboardButton('♈ Adult content ♈ ', url=f'https://desivddeos.blogspot.com')
-                ],[
-                    InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁 🔍', switch_inline_query_current_chat='')
-                  ]]
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
         await asyncio.sleep(2)
@@ -48,13 +46,11 @@ async def start(client, message):
                     InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton('🛡 Movies website 🛡', url=f"https://byvegamovies.blogspot.com"),
-                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/+gkhvihXg5K5kM2Rl")
+                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/purpleebots")
                 ],[
                     InlineKeyboardButton('🔞 18+ 🔞', url=f'https://desivddeos.blogspot.com'),
                     InlineKeyboardButton('♈ Adult ♈', url=f'https://desivddeos.blogspot.com'),
-                ],[
-                    InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
-                  ]]
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -96,14 +92,11 @@ async def start(client, message):
                     InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton('🛡 Movies website 🛡', url=f"https://byvegamovies.blogspot.com"),
-                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/+gkhvihXg5K5kM2Rl")
+                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/purpleebots")
                 ],[
                     InlineKeyboardButton('🔞 18+ 🔞', url=f'https://desivddeos.blogspot.com'),
                     InlineKeyboardButton('♈ Adult content ♈', url=f'https://desivddeos.blogspot.com')
-                ],[
-                    InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
-                    
-                  ]]
+                ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),

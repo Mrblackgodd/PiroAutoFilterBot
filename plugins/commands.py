@@ -24,13 +24,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton('🛡 𝖮𝗐𝗇𝖾𝗋', callback_data="owner_info"),
-                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉', url=f"https://t.me/{SUPPORT_CHAT}")
+                    InlineKeyboardButton('🛡 Movies website 🛡', url=f"https://byvegamovies.blogspot.com"),
+                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/+nKz9rQJ893BlMGRl")
                 ],[
-                    InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
-                    InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
+                    InlineKeyboardButton('🔞 18+ 🔞', url=f'https://desivddeos.blogspot.com'),
+                    InlineKeyboardButton('♈ Adult content ♈ ', url=f'https://desivddeos.blogspot.com')
                 ],[
-                    InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
+                    InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁 🔍', switch_inline_query_current_chat='')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -47,11 +47,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton('🛡 𝖮𝗐𝗇𝖾𝗋', callback_data="owner_info"),
-                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉', url=f"https://t.me/{SUPPORT_CHAT}")
+                    InlineKeyboardButton('🛡 Movies website 🛡', url=f"https://byvegamovies.blogspot.com"),
+                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/+gkhvihXg5K5kM2Rl")
                 ],[
-                    InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
-                    InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about'),
+                    InlineKeyboardButton('🔞 18+ 🔞', url=f'https://desivddeos.blogspot.com'),
+                    InlineKeyboardButton('♈ Adult ♈', url=f'https://desivddeos.blogspot.com'),
                 ],[
                     InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
                   ]]
@@ -95,11 +95,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 ➕', url=f"http://t.me/{temp.U_NAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton('🛡 𝖮𝗐𝗇𝖾𝗋', callback_data="owner_info"),
-                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉', url=f"https://t.me/{SUPPORT_CHAT}")
+                    InlineKeyboardButton('🛡 Movies website 🛡', url=f"https://byvegamovies.blogspot.com"),
+                    InlineKeyboardButton('🧩 Movies 𝖦𝗋𝗈𝗎𝗉 🧩', url=f"https://t.me/+gkhvihXg5K5kM2Rl")
                 ],[
-                    InlineKeyboardButton('ℹ️ 𝖧𝖾𝗅𝗉', callback_data='help'),
-                    InlineKeyboardButton('😊 𝖠𝖻𝗈𝗎𝗍', callback_data='about')
+                    InlineKeyboardButton('🔞 18+ 🔞', url=f'https://desivddeos.blogspot.com'),
+                    InlineKeyboardButton('♈ Adult content ♈', url=f'https://desivddeos.blogspot.com')
                 ],[
                     InlineKeyboardButton('🔎 𝖨𝗇𝗅𝗂𝗇𝖾 𝖲𝖾𝖺𝗋𝖼𝗁', switch_inline_query_current_chat='')
                     
@@ -141,7 +141,8 @@ async def start(client, message):
                 file_id=file.file_id,
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖯𝖨𝖱𝖮 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url=f"https://t.me/piroxbots") ] ] ),
+                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎬 Stream/web 🎬', url=f"https://t.me/+nKz9rQJ893BlMGRl") 
+                                                     ],[ InlineKeyboardButton('🔞 18+ 🔞', url=f"https://desivddeos.blogspot.com") ] ] ),
             )
         return
     
@@ -177,7 +178,8 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖯𝖨𝖱𝖮 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url=f"https://t.me/piroxbots") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎬 Stream/web 🎬', url=f"https://t.me/+nKz9rQJ893BlMGRl") 
+                                                         ],[ InlineKeyboardButton('🔞 18+ 🔞', url=f"https://desivddeos.blogspot.com") ] ] ),
                     
                 )
             except FloodWait as e:
@@ -188,7 +190,8 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     protect_content=msg.get('protect', False),
-                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖯𝖨𝖱𝖮 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url=f"https://t.me/piroxbots") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎬 Stream/web 🎬', url=f"https://t.me/+nKz9rQJ893BlMGRl") 
+                                                         ],[ InlineKeyboardButton ('🔞 18+ 🔞',url =f"https://desivddeos.blogspot.com") ] ] ),
                 )
             except Exception as e:
                 logger.warning(e, exc_info=True)
@@ -250,7 +253,8 @@ async def start(client, message):
                 chat_id=message.from_user.id,
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
-                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖯𝖨𝖱𝖮 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/piroxbots") ] ] ),
+                reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎬 Stream/web 🎬', url="https://t.me/+nKz9rQJ893BlMGRl") 
+                                                     ],[ InlineKeyboardButton('🔞 18+ 🔞', url="https://desivddeos.blogspot.com") ] ] ),
             )
             filetype = msg.media
             file = getattr(msg, filetype.value)
@@ -284,7 +288,8 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('⚔️ 𝖯𝖨𝖱𝖮 𝖴𝖯𝖣𝖠𝖳𝖤𝖲 ⚔️', url="https://t.me/piroxbots") ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🎬 Stream/web 🎬', url="https://t.me/+nKz9rQJ893BlMGRl") 
+                                             ],[ InlineKeyboardButton('🔞 18+ 🔞',url="https://desivddeos.blogspot.com") ] ] ),
     )
                     
 
